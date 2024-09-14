@@ -14,7 +14,8 @@ export default function About() {
           <section className="flex flex-col md:flex-row items-center bg-gray-900 dark:bg-gray-800 p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
             <div className="text-gray-300 align-middle dark:text-gray-200 md:ml-6">
               <p className="mb-4">
-                Hello! I'm <strong>Tahira Batool</strong>, a dedicated{" "}
+                Hey there! I&apos;m
+                <strong> Tahira Batool</strong>, <br /> <br />a dedicated{" "}
                 <strong>MERN Stack Developer</strong> and competitive programmer
                 from Pakistan. I excel in crafting dynamic and engaging web
                 applications with a keen focus on both front-end and back-end
@@ -23,8 +24,8 @@ export default function About() {
               <p className="mb-4">
                 My expertise spans a range of technologies including{" "}
                 <strong>React, Next.js, AI, Tailwind CSS, and Redux</strong>.
-                I'm passionate about continuous learning and growth, constantly
-                enhancing my skills and staying abreast of the latest
+                I&apos;m passionate about continuous learning and growth,
+                constantly enhancing my skills and staying abreast of the latest
                 technological advancements.
               </p>
               <p>
