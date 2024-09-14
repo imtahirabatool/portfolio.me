@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* globals.css or styles.css */
+
+@layer components {
+    .btn-primary {
+      padding: 12px 24px;
+      border: 2px solid #ffffff;
+      color: #ffffff;
+      background-color: transparent;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 999px; /* pill-shaped button */
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      width: 200px; /* fixed width */
+      align-self: center;
+      text-align: center;
+    }
+  
+    .btn-primary:hover {
+      background-color: #ffffff; /* white background on hover */
+      color: #001a33; /* text turns to dark color on hover */
+      transform: translateY(-5px); /* slight hover animation */
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* subtle shadow on hover */
+    }
+  
+    .btn-primary:focus {
+      outline: none;
+      box-shadow: 0 0 0 4px rgba(0, 255, 255, 0.5); /* cyan focus ring */
+    }
+  }
+  
