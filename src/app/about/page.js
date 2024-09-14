@@ -7,27 +7,31 @@ export default function About() {
     <>
       <Header />
       <main className="bg-gradient-to-b from-gray-800 to-gray-900 min-h-screen p-8">
-        <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-teal-300 dark:text-teal-200 mb-8">
+        <div className="container mx-auto flex flex-col items-center">
+          <h2 className="text-4xl font-extrabold text-teal-300 dark:text-teal-200 mb-8 text-center">
             About Me
           </h2>
-          <section className="flex flex-col md:flex-row items-center bg-gray-900 dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-            <img
-              src="/profile-pic.jpg"
-              alt="Profile Picture"
-              className="w-40 h-40 rounded-full object-cover mb-4 md:mb-0 md:mr-8 border-4 border-teal-300 dark:border-teal-200"
-            />
-            <div className="text-gray-300 dark:text-gray-200">
+          <section className="flex flex-col md:flex-row items-center bg-gray-900 dark:bg-gray-800 p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
+            <div className="text-gray-300 align-middle dark:text-gray-200 md:ml-6">
               <p className="mb-4">
-                Hi, I'm Tahira, a MERN Stack Developer passionate about building
-                interactive web applications. With experience in front-end and
-                back-end development, I enjoy creating seamless and
-                user-friendly digital experiences.
+                Hello! I'm <strong>Tahira Batool</strong>, a dedicated{" "}
+                <strong>MERN Stack Developer</strong> and competitive programmer
+                from Pakistan. I excel in crafting dynamic and engaging web
+                applications with a keen focus on both front-end and back-end
+                development.
+              </p>
+              <p className="mb-4">
+                My expertise spans a range of technologies including{" "}
+                <strong>React, Next.js, AI, Tailwind CSS, and Redux</strong>.
+                I'm passionate about continuous learning and growth, constantly
+                enhancing my skills and staying abreast of the latest
+                technological advancements.
               </p>
               <p>
-                My skills include JavaScript, React, Node.js, MongoDB, and
-                Tailwind CSS. I have worked on various projects, from e-commerce
-                websites to personal portfolios.
+                From building intuitive e-commerce platforms to designing
+                personalized portfolios, I am committed to delivering
+                exceptional digital experiences. Feel free to explore my work
+                and connect with me through the links provided.
               </p>
             </div>
           </section>
